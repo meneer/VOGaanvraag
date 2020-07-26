@@ -115,21 +115,15 @@ Intern worden de verschillende queries en analyses geautomatiseerd uitgevoerd.
 De API mag worden aangeroepen door gemachtigde opvragers. Maar omdat de opvraag persoonsgegevens betreft moet de belanghebbende een akkoord geven.
 
 Deze API levert uitsluiten een Ja of een Nee op een bepaalde peildatum op. Het resultaat is een digitaal ondertekend en versleuteld bericht (of status) dat uitsluitend door de gemachtigde aanvrager en belanghebbende bekeken kan worden.
-
+De API wordt beveiligde via een API gateway die gelijktijdig ook als policy enforcement point fungeert. Uitsluitend wanneer aan de security policy wordt voldaan, is de API toegankelijk. Policy Management via User Managed Access. https://kantarainitiative.org/confluence/display/uma/Home
 
 ## Privacy en security
 Om de risico’s van privacy en security afdoende in te dammen wordt gebruik gemaakt van toegang tot de API door toepassing van het User Managed Access principe:
 
 De aanvrager vraagt (na inlog met eHerkenning) via een VOG app of in een VOG-portaal een VOG aan voor een BSN en een Profiel.
 
-De belanghebbende krijgt een digitale uitnodiging om in het portaal te accorderen. Daartoe logt de belanghebbende in met DigiD. In het VOG portaal staat welke aanvrager voor welk profiel een VOG heeft aangevraagd.
+De belanghebbende krijgt een digitale uitnodiging om in het portaal te accorderen. Daartoe logt de belanghebbende in met DigiD. In het VOG portaal staat welke aanvrager voor welk profiel een VOG heeft aangevraagd. Het onderliggende security principe is dat van User Managed Access: https://kantarainitiative.org/confluence/display/uma/Home. 
 
 Alleen als de belanghebbende akkoord geeft, wordt de toets real-time uitgevoerd en wordr het Ja/Nee attribuut als resultaat bepaald.
 
 Het resultaat wordt in het VOG portaal getoond aan zowel de aanvrager als de belanghebbende (en per beveiligde e-mail in een PDF/A ondertekend en versleuteld aan de aanvrager gestuurd? Is misschien niet meer nodig…).
-
-
-
-
-
-
