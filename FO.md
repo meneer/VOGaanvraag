@@ -1,7 +1,7 @@
-#De verklaring omtrent gedrag
+# De verklaring omtrent gedrag
 
 
-##VOG
+## VOG
 In artikel 35 van de Wet justitiële en strafvorderlijke gegevens staat beschreven in welke gevallen de Minister (een VOG wordt immers uit naam van de Minister afgegeven) een VOG kan weigeren: "Onze Minister weigert de afgifte van een verklaring omtrent het gedrag, indien in de justitiële documentatie met betrekking tot de aanvrager een strafbaar feit is vermeld, dat, indien herhaald, gelet op het risico voor de samenleving en de overige omstandigheden van het geval, aan een behoorlijke uitoefening van de taak of de bezigheden waarvoor de verklaring omtrent het gedrag wordt gevraagd, in de weg zal staan." 
 
 
@@ -63,7 +63,7 @@ Geen wonder dat aanvragen 3 to 5 dagen kost en dat er flinke kosten aan verbonde
 Momenteel wordt de VOG opgevraagd door de belanghebbende zelf. Dat is bijzonder, is in feite in strijd met het beginsel van belangenverstrengeling. Feitelijk zuo de opdrachtgever de aanvraag moeten indien. Maar daarbij bestaat dan een risico op privacyschending. Beide risico’s moeten worden vermeden.
 
 
-##Regels en Gegevens
+## egels en Gegevens
 Justis controleert of in  het Justitieel Documentatiesysteem (JDS) een delict bij een persoon staat geregistreerd.
 De primaire sleutel is het BSN. Dat impliceert dat het JDS het BSN ook kent en hanteert voor dossiervorming. Als er geen record bestaat, dan is er geen strafblad, dus een VOG is akkoord.
 
@@ -89,34 +89,13 @@ Als er wel een strafblad is en er is een bezwarend delict dan zal Justis een nad
 Afhankelijk van het oordeel wordt vervolgens al dan niet een VOG verstrekt.
 Dit oordeel lijkt subjectief, maar kan redelijk objectief getoetst worden. De terugkijkperiode ligt objectief vast. Aard van het delicht is af te meten aan de straf. Frequesntie evenzeer (recidive-factor) en de leeftijd is eveneens een vast gegeven.
 
-VOG match?
-Recidive
-Ernst
-Termijn
-Leeftijd
-Relevant
-Ja
-Ja (straf > x)
-< 5 jaar geleden
-> 25 bij delict
-Niet relevant
-Nee
-Nee (straf < x)
-> 5 jaar
-> 25
+VOG match? | Recidive | Ernst | Termijn | Leeftijd
+--- | --- | --- | --- | --- 
+Relevant | Ja | Ja (straf > x)| < 5 jaar geleden |> 25 bij delict
+Niet relevant | Nee | Nee (straf < x) | > 5 jaar | > 25
 
 
-
-
-
-
-
-
-
-
-
-
-##Opvraging
+## Opvraging
 Dit alles impliceert dat bij de aanvraag van een VOG het profiel van de aanvragende persoon met BSN wordt  aangeleverd.
 JDC bevat dus voor elk delict een classificatie en voor elk BSN is dus op elk moment te beoordelen of er een relevante match binnen profiel/risicogebied bestaat.
 
@@ -129,7 +108,7 @@ Het resultaat is ‘Ja’ (geen relevante match) of ‘Nee’ (een relevante pos
 
 
 
-##API OpvraagVOG
+## API OpvraagVOG
 OpvraagVOG {BSN,Profiel}
 Intern worden de verschillende queries en analyses geautomatiseerd uitgevoerd.
 
@@ -138,7 +117,7 @@ De API mag worden aangeroepen door gemachtigde opvragers. Maar omdat de opvraag 
 Deze API levert uitsluiten een Ja of een Nee op een bepaalde peildatum op. Het resultaat is een digitaal ondertekend en versleuteld bericht (of status) dat uitsluitend door de gemachtigde aanvrager en belanghebbende bekeken kan worden.
 
 
-##Privacy en security
+## Privacy en security
 Om de risico’s van privacy en security afdoende in te dammen wordt gebruik gemaakt van toegang tot de API door toepassing van het User Managed Access principe:
 
 De aanvrager vraagt (na inlog met eHerkenning) via een VOG app of in een VOG-portaal een VOG aan voor een BSN en een Profiel.
