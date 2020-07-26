@@ -1,1 +1,9 @@
 # VOGaanvraag
+
+Onlangs is bekend geworden dat er valse VOG-verklaringen in omloop zijn.
+
+Momenteel wordt de VOG opgevraagd door de belanghebbende zelf. Dat is bijzonder, is in feite in strijd met het beginsel van belangenverstrengeling. Feitelijk zuo de opdrachtgever de aanvraag moeten indien. Maar daarbij bestaat dan een risico op privacyschending. Beide risico’s moeten worden vermeden.
+
+Het proces is ook grotendeels een papieren proces, het leidt tot een papieren VOG-verklaring
+Geen wonder dat aanvragen 3 to 5 dagen kost en dat er flinke kosten aan verbonden zijn. Dat moet eenvoudiger kunnen.
+
