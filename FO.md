@@ -63,7 +63,7 @@ Geen wonder dat aanvragen 3 to 5 dagen kost en dat er flinke kosten aan verbonde
 Momenteel wordt de VOG opgevraagd door de belanghebbende zelf. Dat is bijzonder, is in feite in strijd met het beginsel van belangenverstrengeling. Feitelijk zuo de opdrachtgever de aanvraag moeten indien. Maar daarbij bestaat dan een risico op privacyschending. Beide risico’s moeten worden vermeden.
 
 
-## egels en Gegevens
+## Regels en Gegevens
 Justis controleert of in  het Justitieel Documentatiesysteem (JDS) een delict bij een persoon staat geregistreerd.
 De primaire sleutel is het BSN. Dat impliceert dat het JDS het BSN ook kent en hanteert voor dossiervorming. Als er geen record bestaat, dan is er geen strafblad, dus een VOG is akkoord.
 
