@@ -39,22 +39,22 @@ Justis kijkt eerst in het Justitieel Documentatiesysteem (JDS) of er een strafbl
 Justis vraagt in sommige gevallen ook strafrechtelijke gegevens op uit andere EU-landen via ECRIS (European Criminal Record Information System).
 
 Voor de volgende beroepen en ambten wordt specifiek naar bepaalde profielen gekeken:
-Profiel 01. Politieke ambtsdragers
-Profiel 06. Visum en emigratie
-Profiel 18. Huisvestingsvergunning Wbmgp
-Profiel 25. (Buitengewoon) opsporingsambtenaar
-Profiel 40. Vakantiegezinnen en adoptie
-Profiel 45. Gezondheidszorg en welzijn van mens en dier
-Profiel 50. Exploitatievergunning
-Profiel 55. Juridische dienstverlening
-Profiel 60. Onderwijs
-Profiel 65. Taxibranche; chauffeurskaart
-Profiel 70. Taxibranche; ondernemersvergunning
-Profiel 75. (Gezins) voogd bij voogdij-instellin-gen, reclasseringswerker, raadsonderzoe-ker en maatschappelijk werker
-Profiel 80. Beëdigd tolken en vertalers
-Profiel 85. Lidmaatschap schietvereniging
-Profiel 95. Financiële dienstverlening
-Profiel 96. Onbekende functie
+- 01. Politieke ambtsdragers
+- 06. Visum en emigratie
+- 18. Huisvestingsvergunning Wbmgp
+- 25. (Buitengewoon) opsporingsambtenaar
+- 40. Vakantiegezinnen en adoptie
+- 45. Gezondheidszorg en welzijn van mens en dier
+- 50. Exploitatievergunning
+- 55. Juridische dienstverlening
+- 60. Onderwijs
+- 65. Taxibranche; chauffeurskaart
+- 70. Taxibranche; ondernemersvergunning
+- 75. (Gezins) voogd bij voogdij-instellin-gen, reclasseringswerker, raadsonderzoe-ker en maatschappelijk werker
+- 80. Beëdigd tolken en vertalers
+- 85. Lidmaatschap schietvereniging
+- 95. Financiële dienstverlening
+- 96. Onbekende functie
 
 Voor bijvoorbeeld Onderwijspersoneel worden de risicogebieden Personen (bijv. zedendelicten) en Geld (omkoping) getoetst.
 
